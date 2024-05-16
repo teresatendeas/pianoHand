@@ -35,7 +35,6 @@ cap2 = cv2.VideoCapture(0)
 mpHands = mp.solutions.hands
 handTracker = HandTracker()
 
-
 while True:
     success2, image2 = cap2.read()
 
